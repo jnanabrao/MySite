@@ -1,128 +1,92 @@
 /***************************************Tag Selectors***********************/
 body{
-  /*background-color: #fbd46d;*/
-  margin: 0px;
   text-align: center;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
 }
 
-h1 {
-  border:0px;
+h1,h2,h3{
   color: #66BFBF;
-  font-family: 'Sacramento', cursive;
-  font-size: 3em;
-  margin: 0px;
-  padding-top: 30px;
+  margin:0;
+  padding: 50px 0 0 0;
 }
-
-h2 {
-  border:0px;
-  color: #66BFBF;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.5em;
-  font-weight: bolder;
-  margin: 10px 0;
-  padding-top: 20px;
+h1{
+  font-size: 5rem
 }
-h3 {
-  border:0px;
-  color: #66BFBF;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.rem;
-  font-weight: bold;
-  margin: 10px 0;
-  padding-top: 30px;
+h2{
+  font-size: 4rem
+}
+h3{
+  font-size: 3rem
 }
 
 hr{
   border: none;
-  border-top: dotted 5px;
+  border-top: dotted 15px;
   border-color: #b6e1e3;
   font-weight: bold;
-  margin:50px auto;
-  width:5%;
-
+  margin:100px auto;
+  width:15%;
 }
+
 p{
-  font-family: 'Raleway', sans-serif;
+  color: black;
   font-weight: bold;
+  font-size: 2rem;
 }
 
 /*************************************Class Selectors***********************/
+/* Sizing containers */
+.container{
+  margin:0 15% 0 15%;
+  padding: 120px 0;
+}
+.top{
+  background-color: #EAF6F6;
+  height:600px;
+}
+.bot{
+  background-color: #b6e1e3;
+}
+/* Objects */
+.field{
+  background-color: #EAF6F6;
+  border:0;
+  height:55%;
+  margin-top:5%;
+  width: auto;
+}
+
 .my_pic{
   border-radius: 40%;
-  height: 12rem;
-  margin-top: 20px;
+  height: 20rem;
 }
-.attribution{
-  font-size: 0.5rem;
-  display:inline-block;
-  width:70%;
-}
-.CFD{
+
+.images{
   border: 0;
   float: right;
-  margin-top:10%;
+  margin:10% 5%;
   padding:0;
-  width:auto;
-  height:auto;
-  text-align: center;
+  height:15rem;
 }
 .img_CFD{
-  height:5rem;
-  width:auto;
+  height:90%;
 }
-.top_container{
-  background-color: #EAF6F6;
-  display: block;
-  height:500px;
-  width: auto;
-  margin: 0;
-  padding:0;
+.images.football{
+  float: left;
 }
-.mid_container{
-  /*background-color: #96bb7c;*/
-  display:block;
-  height:auto;
-  width:auto;
-  /*border-top: thick dotted blue;
-  height:199px;
-  margin:0 0 0 200px;*/
-  padding-bottom: 40px;
-  /*width:180px;*/
-}
-.bot_container{
-  background-color: #66BFBF;
-  border:0;
-  height:auto;
-  /*margin:0 0 0 400px;*/
-  padding:2rem 0 ;
-  width:auto;
-}
+
 .underl{
   text-decoration: underline;
 }
 
-.mountain{
-  /*background: #aaf;*/
-  /*background-color: #EAF6F6;*/
-  border:0;
-  height: 400px;
-  margin:0;
-  width: 400px;
-}
+
 .skill-row{
-  display:inline-block;
-  line-height: 2;
-  margin:30px auto;
+  margin:0 auto;
   text-align: left;
-  width:50%;
+  width:65%;
 }
 
-.img_football{
-  float: left;
-  margin-right: 7%;
-  width:10%;
-}
 .skill_description{
   clear: left;
   padding: 10px 0;
@@ -175,10 +139,6 @@ p{
    text-decoration: none;
    text-align: left;
 }
-.SL_links{
-  padding:0.5rem 5rem;
-  font-size: 0.75rem;
-}
 .contact-me{
   padding: 20px 0 10px 0;
 }
@@ -189,24 +149,24 @@ p{
 
 .footer-link{
   color: blue;
-  padding: 0 2em;
+  font-size:1rem;
+  padding: 0 2rem;
   text-decoration: none;
 }
 .footer-link:hover{
   color:green;
 }
-/****************************************ID Selectors***********************/
-#top_cloud{
+.top_cloud{
   background-color: #EAF6F6;
   height: 60px;
   position: absolute;
   right:35%;
   width: 120px;
 }
-#bottom_cloud{
+.bottom_cloud{
   /*background-color: #cffffe;*/
   height: 40px;
   position: absolute;
-  top: 25%;
+  top: 15%;
   width: 80px;
 }
